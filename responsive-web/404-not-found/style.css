@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    font-size: 28px;
+    padding: 0.8rem 2rem;
+    font-family: "Inconsolata", monospace;
+    color: #333333;
+}
+
+.main-container{
+    display: flex;
+    margin: 2rem auto 0 auto;
+}
+
+.image-wrapper{
+    width: 50%;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.image-wrapper img{
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.text-container{
+    width: 50%;
+    padding: 2.5rem;
+}
+
+.text-container h1{
+    font-family: "Inconsolata", monospace;
+    font-size: 72px;
+    color: #333333;
+}
+
+.text-container p{
+    font-family: "Space mono", monospace;
+    font-size: 24px;
+    margin-top: 2rem;
+    color: #4f4f4f;
+}
+
+.home-button{
+    margin-top: 2rem;
+    background-color: #333333;
+    color: #fff;
+    padding: 1.5rem;
+    font-family: "Iconsolata", monospace;
+    font-weight: 700;
+    border: none;
+    transition: 0.3s;
+}
+
+.home-button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #333333;
+    border: 1px solid #ddd;
+}
+
+.footer{
+    text-align: center;
+    font-family: "Montserrat", monospace;
+    color: #bdbdbd;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+    }
+    .image-wrapper{
+        width: 100%;
+    }
+    .text-container{
+        width: 100%;
+    }
+}
