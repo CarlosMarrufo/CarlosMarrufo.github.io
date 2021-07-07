@@ -70,5 +70,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://carlosmarrufo.me/)
-- GitHub [@your-username](https://github.com/CarlosMarrufo)
+- Website [carlosmarrufo.me](https://carlosmarrufo.me/)
+- GitHub [@CarlosMarrufo](https://github.com/CarlosMarrufo)
