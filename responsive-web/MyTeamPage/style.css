@@ -92,7 +92,7 @@ figure h3{
     line-height: 15.9px;
 }
 
-.figure-down{
+figure:nth-of-type(2), figure:nth-of-type(5){
     margin-top: 90px;
 }
 
