@@ -187,7 +187,7 @@ header .recipe-desc p{
     margin-top: 63px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
     main{
         margin-top: 32px;
         margin-left: 11px;
@@ -199,13 +199,13 @@ header .recipe-desc p{
     header .recipe-desc p{
         font-size: 12px;
         line-height: 15px;
-        max-width: 320px;
+        max-width: 405px;
     }
     .recipe-image{
-        max-width: 352px;
+        max-width: 405px;
     }
     .recipe-content .recipe-time{
-        width: 352px;
+        width: 415px;
         box-shadow: none;
         max-height: 150px;
     }
