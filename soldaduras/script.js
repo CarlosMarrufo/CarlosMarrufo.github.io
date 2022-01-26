@@ -14,7 +14,7 @@ $(document).keyup(function(event) {
 });
 
 $.get("https://github.com/CarlosMarrufo/DesarrolloWeb/blob/main/soldaduras/MOCK_DATA.csv", function(response, status){
-	console.log('Holaaaa');
+	console.log(status);
     if(status=="succes"){
 		console.log('Hola mundo')
         var data = $.csv.toArrays(response); 
