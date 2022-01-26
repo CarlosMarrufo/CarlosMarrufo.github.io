@@ -13,7 +13,7 @@ $(document).keyup(function(event) {
     }
 });
 
-$.get("MOCK_DATA.csv", function(response, status){
+$.get("https://github.com/CarlosMarrufo/DesarrolloWeb/blob/main/soldaduras/MOCK_DATA.csv", function(response, status){
 	console.log('Holaaaa');
     if(status=="succes"){
 		console.log('Hola mundo')
