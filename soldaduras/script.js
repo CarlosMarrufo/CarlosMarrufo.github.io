@@ -14,6 +14,7 @@ $(document).keyup(function(event) {
 });
 
 $.get("MOCK_DATA.csv", function(response, status){
+	console.log('Holaaaa');
     if(status=="succes"){
 		console.log('Hola mundo')
         var data = $.csv.toArrays(response); 
