@@ -1,1 +1,41 @@
-e
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <title>aEa</title>
+</head>
+<body>
+    <h1 class="a">mataduana</h1>
+    <div class="inp-material" id="inp-material">
+        <input type="text" name="numParte" id="numParte" placeholder="Número de parte">
+        <input type="text" name="canMaterial" id="canMaterial" placeholder="Cantidad en aduana">
+        <input type="button" id="addBtn" onclick="addMaterial();" value="Agregar">
+        <input type="text" name="matFiltro" id="matFiltro" placeholder="Buscar">
+    </div>
+
+    <div id="tableContainer">
+        <table class="mat-aduana" id="matAduanaTable">
+            <thead>
+                <tr class="mat-aduana__header">
+                    <th>Número de parte</th>
+                    <th>Cantidad en aduana</th>
+                </tr>
+            </thead>
+            <tbody id="matAduanaBody">
+                <tr>
+                    <td>daw</td>
+                    <td>awdawd  </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    
+    <input id="upload" type="file">
+    <button id="parse" onclick="parse()">Parse</button>
+</body>
+</html>
