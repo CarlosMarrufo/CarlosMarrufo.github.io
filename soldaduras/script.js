@@ -13,20 +13,11 @@ $(document).keyup(function(event) {
     }
 });
 
-$.get("https://github.com/CarlosMarrufo/DesarrolloWeb/blob/main/soldaduras/MOCK_DATA.csv", function(response, status){
-	console.log(status);
-    if(status=="succes"){
-		console.log('Hola mundo')
-        var data = $.csv.toArrays(response); 
-        var html = ''; 
-        for(var row in data) { 
-            html += '<tr>\r\n';
-            for(var item in data[row]) { 
-            html += '<td>' + data[row][item] + '</td>\r\n'; } 
-            html += '</tr>\r\n'; 
-        } 
-        $('#contents').html(html);
-    }
+$.ajax({
+    type: "GET",
+    url: "MOCK_DATA.csv",
+    dataType: "text",
+    success: console.log('Hola')
 });
 
 function addMaterial() {
